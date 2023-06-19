@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+  <link rel="preload" href="fonts/Montserrat-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Italic.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Medium.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Bold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script defer src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body id="scroll">
+  <header class="header container">
+    <a class="header__logo" href="index.html">
+      <img src="img/logo.png" alt="Логотип">
+    </a>
+    <ul class="header__social-list header-mobile__social-list">
+      <li class="header__social-item">
+        <a class="header__link" href="#" aria-label="Ссылка на чат в Телеграм">TELEGRAM</a>
+      </li>
+      <li class="header__social-item">
+        <a class="header__link" href="#" aria-label="Ссылка на чат What's app">WHATSAPP</a>
+      </li>
+    </ul>
+    <button class="header_btn">Заказать дизайн</button>
+  </header>
+  <main>
+    <section class="section-hero container">
+      <div class="section-hero__left">
+        <h1 class="section-hero__heading">Оформление карточек товаров на маркетплейсах</h1>
+        <p class="section-hero__descr">Youdes занимается разработкой современного дизайна, цель которого выделить товар среди конкурентов и привлечь внимание инфографикой.</p>
+        <p class="section-hero__descr">Индивидуальная дизайн-концепция, качественная обработка фото товара, внимание к мельчайшим деталям!</p>
+      </div>
+      <div class="section-hero__right">
+        <div class="section-hero__right-top">
+          <div class="section-hero__btns">
+            <button class="section-hero__btn section-hero__btn-wb">Wildberries</button>
+            <button class="section-hero__btn section-hero__btn-oz">Ozon</button>
+          </div>
+          <a class="section-hero__right-link" href="#">
+            <svg 
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="7px" height="10px">
+              <defs>
+              <filter id="Filter_0">
+                  <feFlood flood-color="rgb(118, 118, 124)" flood-opacity="1" result="floodOut" />
+                  <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                  <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+              </filter>
+
+              </defs>
+              <g filter="url(#Filter_0)">
+              <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+               d="M5.574,10.0 L0.548,5.0 L5.574,0.0 L6.452,0.741 L2.178,5.0 L6.452,9.259 L5.574,10.0 Z"/>
+              </g>
+            </svg>
+            Вернуться
+          </a>
+        </div>
+        <div class="swiper section-hero__swiper">
+          <div class="section-hero__list swiper-wrapper">
+            <div class="swiper-slide section-hero__item">
+            </div>
+            <div class="swiper-slide section-hero__item">
+            </div>
+            <div class="swiper-slide section-hero__item">
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-scrollbar"></div>
+        <div class="section-hero__navigation">
+          <button class="sw-btn section-hero__nav-btn section-hero__btn-left">
+            <svg 
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               width="9px" height="15px">
+              <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+              d="M7.661,14.999 L0.0,7.499 L7.661,0.0 L8.998,1.110 L2.484,7.499 L8.998,13.888 L7.661,14.999 Z"/>
+            </svg>
+          </button>
+          <button class="sw-btn section-hero__nav-btn section-hero__btn-right">
+            <svg 
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               width="9px" height="15px">
+              <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+               d="M1.336,0.0 L8.998,7.499 L1.336,14.999 L0.1,13.888 L6.513,7.499 L0.1,1.110 L1.336,0.0 Z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container">
+    <span class="footer__copyright">© 2021. Все права защищены</span>
+    <a class="footer__link" href="#">Политика конфиденциальности</a>
+  </footer>
+</body>
+</html>
